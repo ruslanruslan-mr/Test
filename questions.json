@@ -1,0 +1,25 @@
+[
+  {
+    "hook": "MIYANGIZ 99% ODAMLARNIKIDAN TEZROQ ISHLAYDIMI?",
+    "questions": [
+      {
+        "q": "Dunyodagi eng katta okean qaysi?",
+        "a": "Atlantika",
+        "b": "Tinch okeani",
+        "correct": "B"
+      },
+      {
+        "q": "O'zbekiston poytaxti qaysi shahar?",
+        "a": "Toshkent",
+        "b": "Samarqand",
+        "correct": "A"
+      },
+      {
+        "q": "Quyosh tizimidagi eng katta sayyora?",
+        "a": "Yupiter",
+        "b": "Mars",
+        "correct": "A"
+      }
+    ]
+  }
+]
