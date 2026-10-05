@@ -1,0 +1,13 @@
+app = "your-quiz-bot" # Bu yerga Fly.io'dagi ilovangiz nomini yozasiz
+primary_region = "fra" # Frankfurt (O'zbekistonga eng yaqin va tezkor zona)
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PYTHONUNBUFFERED = "1"
+
+[[vm]]
+  memory = "1gb"
+  cpu_kind = "shared"
+  cpus = 1
