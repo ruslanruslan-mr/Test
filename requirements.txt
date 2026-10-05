@@ -1,0 +1,6 @@
+google-genai
+edge-tts
+moviepy
+Pillow
+python-telegram-bot
+asyncio
