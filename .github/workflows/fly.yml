@@ -12,7 +12,7 @@ jobs:
       - uses: superfly/flyctl-actions/setup-flyctl@master
       - name: Set Secrets and Deploy
         run: |
-          flyctl secrets set BOT_TOKEN="${{ secrets.BOT_TOKEN }}" GEMINI_API_KEY="${{ secrets.GEMINI_API_KEY }}" GROUP_ID="${{ secrets.GROUP_ID }}" --app your-quiz-bot
+          flyctl secrets set TELEGRAM_BOT_TOKEN="${{ secrets.TELEGRAM_BOT_TOKEN }}" GEMINI_API_KEY="${{ secrets.GEMINI_API_KEY }}" GROUP_ID="${{ secrets.GROUP_ID }}" --app your-quiz-bot
           flyctl deploy --remote-only
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
